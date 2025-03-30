@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .container {
+            width: 100%;
+            height: 100vh; 
+            display: flex;
+            flex-direction: column; 
+        }
+
+        .red-section {
+            flex: 1; 
+            background-color: rgb(196, 50, 60); /* Rojo */
+            display: flex;
+            align-items: center; 
+            justify-content: center; 
+            font-size: 24px;
+            font-weight: bold;
+            color: white;
+        }
+
+        .green-section {
+            flex: 1; 
+            background-color: #4CAF50; 
+            display: flex;
+            flex-direction: column; 
+            align-items: center; 
+            justify-content: center; 
+            color: white;
+            font-size: 18px;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        .content {
+            text-align: center;
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="red-section">
+            Encabezado
+        </div>
+        <div class="green-section">
+            <div class="content">Encabezado</div>
+            <div class="content">Columna izquierda</div>
+            <div class="content">Columna derecha</div>
+            <div class="content">Izquierda en el pie de página</div>
+            <div class="content">Derecha en el pie de página</div>
+        </div>
+    </div>
+</body>
+</html>
